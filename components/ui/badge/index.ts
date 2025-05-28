@@ -18,10 +18,11 @@ export const badgeVariants = cva(
         nuxt: "border-transparent text-white bg-emerald-400 [a&]:hover:bg-emerald/90",
         postgresql:
           "border-transparent bg-sky-800 text-white [a&]:hover:bg-sky/90",
-        scala:
-          "border-transparent bg-red-600 text-white [a&]:hover:bg-red/90",
+        scala: "border-transparent bg-red-600 text-white [a&]:hover:bg-red/90",
         playframework:
           "border-transparent bg-green-600 text-white [a&]:hover:bg-green/90",
+        swift:
+          "border-transparent bg-orange-600 text-white [a&]:hover:bg-orange/90",
       },
     },
     defaultVariants: {

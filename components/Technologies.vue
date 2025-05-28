@@ -92,8 +92,8 @@ const frontend = [
     icon: 'flutter-icon.webp',
   },
   {
-    name: 'Uknown',
-    icon: undefined,
+    name: 'swift',
+    icon: 'swift-icon.jpg',
   },
   {
     name: 'Uknown',
