@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- seo:start — replaced at build time by scripts/prerender.mjs (from src/data/site.ts) -->
+    <title>Tristan Jay Virtudazo — Software Engineer</title>
+    <!-- seo:end -->
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fcfbf8" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#14100e" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <script>
+      // Apply the saved or system theme before first paint to avoid a light/dark flash.
+      // Key and values match @vueuse/core useColorMode defaults.
+      ;(function () {
+        try {
+          var stored = localStorage.getItem('vueuse-color-scheme')
+          var dark =
+            stored === 'dark' ||
+            ((!stored || stored === 'auto') &&
+              window.matchMedia('(prefers-color-scheme: dark)').matches)
+          document.documentElement.classList.toggle('dark', dark)
+        } catch (e) {}
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
