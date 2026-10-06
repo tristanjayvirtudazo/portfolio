@@ -46,7 +46,7 @@ export const portfolio = {
     ],
     interests: ['Fullstack development', 'Design systems', 'Singing', 'Hiking', 'Working-out'],
     links: {
-      linkedin: 'https://inkedin.com/in/tristan-jay-virtudazo-73a5b2218',
+      linkedin: 'https://linkedin.com/in/tristan-jay-virtudazo-73a5b2218',
       github: 'https://github.com/tristanjayvirtudazo',
       email: 'tj.virtudazo@gmail.com',
     },
