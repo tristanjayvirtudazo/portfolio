@@ -135,7 +135,13 @@ export const portfolio = {
       title: 'Note Scribe',
       description: 'Note Scribe is an all-in-one AI study companion that turns raw study materials—photos, slides, textbook pages, and PDFs—into structured, editable study guides.',
       technologies: ['Next', 'Typescript', 'Tailwind CSS', 'Shadcn', 'Supabase', 'Prisma'],
-      availability: { kind: 'public', repoUrl: '' },
+      availability: { kind: 'public', liveUrl: 'https://note-scribe-chi.vercel.app/' },
+    },
+    {
+      title: 'Math Problem Generator',
+      description: 'An AI-powered app that generates Primary 5 math word problems, tracks submissions, and delivers personalized feedback.',
+      technologies: ['Next', 'Typescript', 'Tailwind CSS', 'Supabase', 'Prisma'],
+      availability: { kind: 'public', liveUrl: 'math-problem-generator-sage.vercel.app' }
     },
   ],
 } satisfies Portfolio
