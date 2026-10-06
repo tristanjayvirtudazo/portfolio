@@ -141,7 +141,7 @@ export const portfolio = {
       title: 'Math Problem Generator',
       description: 'An AI-powered app that generates Primary 5 math word problems, tracks submissions, and delivers personalized feedback.',
       technologies: ['Next', 'Typescript', 'Tailwind CSS', 'Supabase', 'Prisma'],
-      availability: { kind: 'public', liveUrl: 'math-problem-generator-sage.vercel.app' }
+      availability: { kind: 'public', liveUrl: 'https://math-problem-generator-sage.vercel.app' }
     },
   ],
 } satisfies Portfolio
